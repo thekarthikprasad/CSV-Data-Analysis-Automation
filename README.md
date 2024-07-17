@@ -6,6 +6,7 @@ This process uses agentic automation which performs tasks like:
 - Describes the variables of the dataset
 - Performs statistical analysis on the dataset
 - Performs data visualization tasks
+- Generates interactive plots
 
 # Setup
 
