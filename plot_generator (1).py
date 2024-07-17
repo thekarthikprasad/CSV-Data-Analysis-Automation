@@ -8,16 +8,11 @@ pip install -r requirements.txt
 
 """# Environment Variables"""
 
-from google.colab import drive
-
-drive.mount('/content/drive')
-
 import os
 
 import dotenv
-from google.colab import drive
 
-dotenv.load_dotenv('/content/drive/MyDrive/.env')
+dotenv.load_dotenv('/.env')
 
 os.environ.get('GROQ_KEY')
 
