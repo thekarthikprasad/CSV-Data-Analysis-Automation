@@ -10,17 +10,17 @@ This process uses agentic automation which performs tasks like:
 # Setup
 
 ## 1. Clone this repository
-'''sh
+```sh
 git clone https://github.com/thekarthikprasad/CSV-Data-Analysis-Automation.git
 
 ## 2. Install the requirements
-'''sh
+```sh
 pip install -r requirements.txt
 
 ## 3. Configure the environment variables
-'''sh
+```sh
 GROQ_KEY=<your llama3 groq key>
 
 ## 4. Run
-'''sh
+```sh
 python cd CSV-Data-Analysis-Automation/plot_generator (1).py
