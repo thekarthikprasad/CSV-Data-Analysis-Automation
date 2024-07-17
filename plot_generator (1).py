@@ -119,23 +119,19 @@ user_query = input("Enter your query")
 
 """# Data Analysis"""
 
+path = input("Enter the path of the dataset here: ")
 from langchain_groq import ChatGroq
 from crewai import Agent, Task, Crew, Process
 import os
 from dotenv import load_dotenv,dotenv_values
-from crewai_tools import CSVSearchTool
-from langchain_community.embeddings import OllamaEmbeddings
-from langchain_community.vectorstores import Chroma
 from langchain_experimental.tools import PythonREPLTool
-from crewai_tools import FileReadTool
 import pandas as pd
 
 
 load_dotenv()
 
 import pandas as pd
-df = pd.read_csv(r"/content/shopping_trends.csv")
-path = r"/content/shopping_trends.csv"
+df = pd.read_csv(path)
 data = df.head()
 print(data)
 llm = ChatGroq(temperature=0, groq_api_key=os.environ.get('GROQ_KEY'), model_name="llama3-70b-8192")
