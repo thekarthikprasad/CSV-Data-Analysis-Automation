@@ -1,0 +1,9 @@
+langchain
+langchain_groq
+langchain_experimental
+langchain_community
+langchain-core
+crewai
+crewai_tools
+matplotlib
+python-dotenv
