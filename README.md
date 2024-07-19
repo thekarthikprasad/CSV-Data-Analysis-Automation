@@ -24,5 +24,6 @@ GROQ_KEY=<your llama3 groq key>
 ````
 ## 4. Run
 ```sh
-python cd CSV-Data-Analysis-Automation/plot_generator (1).py
+cd CSV-Data-Analysis-Automation/plot_generator (1).py
+python CSV-Data-Analysis-Automation/plot_generator (1).py
 ```
